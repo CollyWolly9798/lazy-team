@@ -1,4 +1,9 @@
 /* advertisement */
+.advertisement{
+    padding-top: 80px;
+    padding-bottom: 80px; 
+}
+
 .advertisement-paragraph-part,
 .advertisement-paragraph{
     font-size: 48px;
@@ -15,16 +20,20 @@
     border-radius: 12px;
     background: #576F35;
     padding: 3px 10px; 
+    margin: 0 -10px;
     color: #FBFBFB;
 }
 
 .advertisement-paragraph{
     color: #141414;
-    padding-top: 80px;
-    padding-bottom: 80px; 
 }
 
 @media screen and (min-width:768px){
+   .advertisement{
+        padding-top: 100px;
+        padding-bottom: 100px;
+   }
+
     .advertisement-paragraph,
     .advertisement-paragraph-part{
         font-size: 64px;
@@ -32,14 +41,10 @@
         letter-spacing: -0.96px;
     }
 
-    .advertisement-paragraph{
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
     .advertisement-paragraph-part{
         height: 86px;
         padding: 8px 16px;
+        margin: 0 -16px;
     }
 }
 
@@ -49,10 +54,12 @@
         font-size: 76px;
         line-height: 1.05;
         letter-spacing: -1.14px; 
+        padding-left: 13px;
       }
 
     .advertisement-paragraph-part{
         padding-left: 13px;
+        margin: 0 0 0 -13px;
         display: inline-block; 
     }
 
