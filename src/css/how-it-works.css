@@ -15,6 +15,8 @@ background: linear-gradient(to bottom,
 #7A3145 44.65%,
  #576F35 44.5%,
  #576F35 100%);
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 .how-it-works
 {
@@ -30,13 +32,13 @@ align-items: center;
 {
 min-width: 320px;
 max-width: 375px;
-padding: 40px 20px;
+padding: 0 20px 40px 20px;
 }
 .how-its-works-descr
 {
 min-width: 320px;
 max-width: 375px;
-padding: 80px 20px;
+padding: 80px 20px 0 20px;
 }
 .how-it-works-text
 {
@@ -116,16 +118,18 @@ background: linear-gradient(to bottom,
 #7A3145 55%,
  #576F35 50%,
  #576F35 100%);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
     .how-its-works_img
     {
    max-width: 768px;
-    padding: 100px 64px;
+    padding: 0 64px 100px 64px;
     }
     .how-its-works-descr
     {
     max-width: 768px;
-    padding: 100px 159px;
+    padding: 100px 159px 0 159px;
     }
     .how-it-works-text
     {
@@ -165,11 +169,11 @@ background: linear-gradient(to right,
     .how-its-works_img
     {
     max-width: 630px;
-    padding: 100px;
+    padding: 0 100px;
     }
     .how-its-works-descr
     {
-    max-width: 680px;
-    padding: 100px 100px 160px;
+    max-width: 650px;
+    padding: 0 100px;
     }
 }
